@@ -1,0 +1,28 @@
+<html lang="en"
+ <head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Comaptible" content="IE-edge">
+     
+     <meta name="viewport" content="width=device-width, intial-scale=1.0">
+     
+    <title>Question</title>
+ </head>
+ <body>
+     <h1 id="resultText"</h1>
+         <script>
+         
+       let response = prompt ("kaya pb akon? Yes or No");
+       let outputText = "";
+       
+    if (response=="Yes"){
+    outputText = "ay wow strong HAHAHAHHA" ;
+    }else if (response=="No"){
+    outputText = "kaya mo yan HAHAHA";
+    }else{
+    outputText = "Yes or No nga e 🤬🤬HAHAHHA";
+    }
+    
+    document.getElementById("resultText").innerHTML= outputText;
+    </script>
+    </body>
+    </html>
